@@ -1,0 +1,33 @@
+.shop_content>.item_wrap{
+    border: 1px solid #8a8000;
+    padding: 15px;
+    
+}
+.item_row{
+    display: flex;
+    
+}
+.item_left{
+    width: 20%;
+    padding-right: 15px;
+}
+.item_mid{
+    width: 40%;
+}
+.item_right{
+    width: 40%;
+}
+@media(max-width:992px){
+    .item_left{
+      width: 100%;
+      padding-right: 0px;
+      margin-right: 0px;
+    }
+    .item_mid{
+      width: 100%;
+    }
+    .item_right{
+      width: 100%;
+      margin-right: 0px;
+    }
+  }
